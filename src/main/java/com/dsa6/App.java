@@ -8,8 +8,8 @@ import org.apache.logging.log4j.Logger;
 author: Raymond, Zhang Yuehua
 creat : 2023/3/12
 */
-public class Test {
-    private static final Logger log = LogManager.getLogger(Test.class);
+public class App {
+    private static final Logger log = LogManager.getLogger(App.class);
 
     public static void main(String[] args) {
         log.info("Hello World");
