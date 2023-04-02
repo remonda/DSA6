@@ -1,4 +1,4 @@
-package com.dsa6.ch3;
+package com.dsa6.ch3.linkedList;
 
 /**
  * author: Raymond, Zhang Yuehua
@@ -7,6 +7,7 @@ package com.dsa6.ch3;
 
 public class SinglyLinkedList<T> {
     private static class Node<T> {
+
         private T data;
         private Node<T> next;
 
@@ -17,6 +18,7 @@ public class SinglyLinkedList<T> {
             this.data = t;
             this.next = null;
         }
+
     }
 
     private Node<T> head;
@@ -78,4 +80,9 @@ public class SinglyLinkedList<T> {
 //    T removeLast() {
 //
 //    }
+
 }
+
+
+
+
